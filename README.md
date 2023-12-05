@@ -16,7 +16,7 @@ The back-end is implemented with Express JS and MongoDB and can be viewed [here]
 - Vue 3: https://vuejs.org/
 - vue3-google-map: https://www.npmjs.com/package/vue3-google-map
 - axios: https://axios-http.com/
-- Bootstrap 5:https://getbootstrap.com/
+- Bootstrap 5: https://getbootstrap.com/
 - vue-countdown: https://www.npmjs.com/package/@chenfengyuan/vue-countdown
 
 ## Deployment
