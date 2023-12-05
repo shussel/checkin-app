@@ -12,9 +12,20 @@ This app is built with Vue 3 and consists of 2 single file components, CheckIn w
 
 The back-end is implemented with Express JS and MongoDB and can be viewed [here](https://github.com/shussel/checkin-api) making this a MEVN stack app.
 
-## Depedencies
+## Dependencies
 - Vue 3: https://vuejs.org/
 - vue3-google-map: https://www.npmjs.com/package/vue3-google-map
 - axios: for http requests: https://axios-http.com/
 - Bootstrap 5:https://getbootstrap.com/
 - vue-countdown: https://www.npmjs.com/package/@chenfengyuan/vue-countdown
+
+## Deployment
+This demo app is served statically from Amazon S3 behind CloudFront to provide HTTPS service, as required by the browser geolocation API.
+
+## Limitations
+- As a proof of concept app, this app has limited error checking and functionality.
+- Users must allow location services on their device, which may be difficult and require extra steps depending on default settings.
+- The timer and alerts only work when the app is in the foreground and the device is in active mode.
+- No alert sounds on iOS due to Apple policies prohibiting web sounds not initiated by the user.
+
+  All of these limitations can be overcome with additional code.
